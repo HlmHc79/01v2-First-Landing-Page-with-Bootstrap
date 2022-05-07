@@ -1,0 +1,44 @@
+body {
+    font-family: 'Mirza', cursive;
+}
+
+.navbar {
+    background-color: #e7ead6;
+    margin:1em;
+    border-radius:15px;
+}
+
+.logo {
+    width:50px;
+}
+
+.navbar-brand {
+    font-size:1.5rem;
+}
+
+.navbar-nav .nav-link {
+text-align: right;
+font-size: 1.5rem;
+opacity: 0.75;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border:solid 5px #dadec5;
+}
+
+.hero {
+    padding-top:8em;
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-collapse {
+     justify-content:end;
+    }
+    }
+    
+
