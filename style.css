@@ -51,6 +51,21 @@ opacity: 0.75;
         max-width: 960px;
 }
 
+#portfolio {
+    background-color: #e7ead6;
+    padding:2em 0;
+}
+
+.thbn {
+    text-align: center;
+    color: black;
+    margin-top:0.5em;
+}
+
+.thb {
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-collapse {
      justify-content:end;
