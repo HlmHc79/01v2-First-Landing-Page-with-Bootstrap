@@ -66,6 +66,25 @@ opacity: 0.75;
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 
+.contact {
+    padding:2em 0;
+}
+
+.container__form {
+    max-width:750px;
+    width: 80%;
+    margin: auto;
+}
+.mess {
+    padding-top:1em;
+}
+
+.btn {
+    background-color:#e7ead6;
+    border: solid 1px #dadec5;
+    padding:0.5em 1.5em;
+}
+
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-collapse {
      justify-content:end;
