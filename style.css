@@ -68,7 +68,8 @@ padding-right:1em;
 }
 
 .row1 {
-    margin:0;
+    max-width: 1000px;
+    margin: auto;
 }
 
 
