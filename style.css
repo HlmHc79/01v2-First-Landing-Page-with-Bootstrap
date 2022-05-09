@@ -6,7 +6,6 @@ body {
     background-color: #e7ead6;
     /* margin:1em;
     border-radius:15px; */
-    height:10vh;
 }
 
 .logo {
@@ -20,7 +19,11 @@ body {
 .navbar-nav .nav-link {
 text-align: right;
 font-size: 1.75rem;
-opacity: 0.75;
+}
+
+.nav-item {
+background-color: #e7ead6;
+padding-right:1em;
 }
 
 .navbar-toggler,
@@ -60,10 +63,17 @@ opacity: 0.75;
     text-align: center;
 }
 
-
 #portfolio {
     background-color: #e7ead6;
-    padding:2em 0;
+}
+
+.row1 {
+    margin:0;
+}
+
+.portfolio__title, .contact__title, .hero__title {
+    padding-top:1em;
+    text-align:center;
 }
 
 .thbn {
@@ -80,9 +90,6 @@ opacity: 0.75;
     display:flex;
     justify-content: center;
 }
-.contact {
-    padding:2em 0;
-}
 
 .container__form {
     max-width:750px;
@@ -97,6 +104,10 @@ opacity: 0.75;
     background-color:#e7ead6;
     border: solid 1px #dadec5;
     padding:0.5em 1.5em;
+}
+
+.contact {
+    padding-bottom:1em;
 }
 
 @media (min-width: 768px) {
