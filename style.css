@@ -4,8 +4,9 @@ body {
 
 .navbar {
     background-color: #e7ead6;
-    margin:1em;
-    border-radius:15px;
+    /* margin:1em;
+    border-radius:15px; */
+    height:10vh;
 }
 
 .logo {
@@ -32,7 +33,7 @@ opacity: 0.75;
 }
 
 .hero {
-    padding-top:8em;
+    padding-top:10vh;
 }
 
 .lead {
@@ -51,6 +52,15 @@ opacity: 0.75;
         max-width: 960px;
 }
 
+.greetings {
+ margin-right:2em;
+}
+
+.hright{
+    text-align: center;
+}
+
+
 #portfolio {
     background-color: #e7ead6;
     padding:2em 0;
@@ -64,8 +74,12 @@ opacity: 0.75;
 
 .thb {
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
-}
+}   
 
+.mini {
+    display:flex;
+    justify-content: center;
+}
 .contact {
     padding:2em 0;
 }
